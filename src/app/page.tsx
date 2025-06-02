@@ -81,16 +81,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Project Card Template */}
             <div className="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-              <div className="relative h-48 mx-auto bg-gray-700 ">
-                <Image
-                  src="/pet.png"
-                  alt="You & Your Pet"
-                  width={200}
-                  height={200}
-                  className="object-cover mx-auto"
-                  priority
-                />
-              </div>
+              <div className="relative h-48 mx-auto bg-linear-to-r from-teal-500 to-blue-400 "></div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">You & Your Pet</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
@@ -119,7 +110,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-              <div className="bg-gray-700 h-48"></div>
+              <div className="bg-linear-to-r from-teal-500 to-blue-400 h-48"></div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">Cat breed classifier</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
@@ -145,7 +136,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-              <div className="bg-gray-700 h-48"></div>
+              <div className="bg-linear-to-r from-teal-500 to-blue-400 h-48"></div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">Game summary website using AI</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
@@ -168,7 +159,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-              <div className="bg-gray-700 h-48"></div>
+              <div className="bg-linear-to-r from-teal-500 to-blue-400 h-48"></div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">Various smaller projects</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
