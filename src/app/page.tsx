@@ -39,7 +39,6 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-center text-gray-800 dark:text-gray-200">About Me</h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative h-64 md:h-full">
-              {/* Add your profile image here */}
               <Image
                 src="/actuallyme.png"
                 alt="Rares Palatka"

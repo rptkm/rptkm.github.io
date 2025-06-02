@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Your Name - Portfolio",
+  title: "Rares Palatka - Portfolio",
   description: "Professional portfolio showcasing my projects and skills",
 };
 
