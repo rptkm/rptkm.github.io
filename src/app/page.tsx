@@ -65,7 +65,7 @@ export default function Home() {
         <div className="container mx-auto max-w-4xl px-4">
           <h2 className="text-3xl font-bold mb-12 text-center text-gray-800 dark:text-gray-200">Skills & Technologies</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {['JavaScript', 'Tailwind', 'React', 'React  Native', 'Firebase', 'Node.js', 'Python', 'Git'].map((skill) => (
+            {['JavaScript', 'React', 'Tailwind', 'Vite', 'Hono', 'Node.js', 'Firebase', 'Git'].map((skill) => (
               <div key={skill} className="p-4 bg-white dark:bg-gray-700 rounded-lg shadow-sm text-center">
                 <p className="font-medium text-gray-800 dark:text-gray-200">{skill}</p>
               </div>
