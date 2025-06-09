@@ -1,2 +1,8 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+  [[redirects]]
+  from = "/game-summary/*"
+  to = "https://game-summary-ai-2.netlify.app/:splat"
+  status = 200
+  force = true
