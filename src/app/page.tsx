@@ -58,7 +58,7 @@ export default function Home() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">Game summary using AI</h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-4">
-                    A website that uses AI to summarize the plot of a game, based on the user's input. It is made with the idea in mind that it would be used by people who are interested in buying a game, but don't want to read the entire plot of the game.
+                    A website that uses AI to recommend games based on users criteria, offering quick access to the games Steam page, while providing other useful information about the games.
                   </p>
                   <div className="flex gap-2 flex-wrap">
                     <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm">
