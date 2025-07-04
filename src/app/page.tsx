@@ -53,6 +53,34 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
 
             <div className="bg-gray-50 dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+              <a className="hover:cursor-pointer" href="/game-summary" target="_blank" rel="noopener noreferrer">
+                <div className="bg-linear-to-r from-fuchsia-400 to-purple-800 h-48"></div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">Game summary using AI</h3>
+                  <p className="text-gray-600 dark:text-gray-400 mb-4">
+                    A website that uses AI to summarize the plot of a game, based on the user's input. It is made with the idea in mind that it would be used by people who are interested in buying a game, but don't want to read the entire plot of the game.
+                  </p>
+                  <div className="flex gap-2 flex-wrap">
+                    <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm">
+                      React
+                    </span>
+                    <span className="px-3 py-1 bg-cyan-100 dark:bg-cyan-900 text-cyan-800 dark:text-cyan-200 rounded-full text-sm">
+                      TypeScript
+                    </span>
+                    <span className="px-3 py-1 bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200 rounded-full text-sm">
+                      Tailwind
+                    </span>
+                    <span className="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full text-sm">
+                      Next.js
+                    </span>
+                    <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full text-sm">
+                      Groq AI
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="bg-gray-50 dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-48 mx-auto bg-linear-to-r from-teal-500 to-blue-400 "></div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">You & Your Pet</h3>
@@ -108,34 +136,6 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-gray-50 dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-              <a className="hover:cursor-pointer" href="/game-summary" target="_blank" rel="noopener noreferrer">
-              <div className="bg-linear-to-r from-teal-500 to-blue-400 h-48"></div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">Game summary using AI</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">
-                  A website that uses AI to summarize the plot of a game, based on the user's input. It is made with the idea in mind that it would be used by people who are interested in buying a game, but don't want to read the entire plot of the game.
-                </p>
-                <div className="flex gap-2 flex-wrap">
-                  <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm">
-                    React
-                  </span>
-                  <span className="px-3 py-1 bg-cyan-100 dark:bg-cyan-900 text-cyan-800 dark:text-cyan-200 rounded-full text-sm">
-                    TypeScript
-                  </span>
-                  <span className="px-3 py-1 bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200 rounded-full text-sm">
-                    Tailwind
-                  </span>
-                  <span className="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full text-sm">
-                    Next.js
-                  </span>
-                  <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full text-sm">
-                    Groq AI
-                  </span>
-                </div>
-              </div>
-              </a>
-            </div>
-            <div className="bg-gray-50 dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg">
               <div className="bg-linear-to-r from-teal-500 to-blue-400 h-48"></div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">Various smaller projects</h3>
@@ -149,8 +149,8 @@ export default function Home() {
         </div>
       </section>
 
-  
-            <section id="about" className="w-full py-20 bg-white dark:bg-gray-900">
+
+      <section id="about" className="w-full py-20 bg-white dark:bg-gray-900">
         <div className="container mx-auto max-w-4xl px-4">
           <h2 className="text-3xl font-bold mb-8 text-center text-gray-800 dark:text-gray-200">About Me</h2>
           <div className=" md:grid-cols-2 gap-8 items-center text-center">
