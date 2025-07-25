@@ -1,7 +1,18 @@
-
+"use client"
+import { useEffect } from "react";
 import Link from "next/link";
 
 export default function Home() {
+  useEffect(() => {
+    // "Warm up" the backend by sending a GET request on page load
+    fetch('/api')
+      .then(response => {
+        if (!response.ok) {
+          console.error(`Warm-up failed: ${response.status}`);
+        }
+      })
+      .catch(error => console.error('Failed to warm up backend:', error));
+  }, []);
   return (
     <main className="flex min-h-screen flex-col items-center">
 
